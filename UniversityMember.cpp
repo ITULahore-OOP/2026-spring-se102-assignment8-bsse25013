@@ -1,0 +1,19 @@
+#include "UniversityMember.h"
+
+// Constructor 
+UniversityMember::UniversityMember(string name, int memberID) {
+    this->name = name;
+    this->memberID = memberID;
+}
+// Destructor
+UniversityMember::~UniversityMember() {
+
+}
+// Getter for name
+string UniversityMember::getName() {
+    return name;
+}
+// Getter for ID
+int UniversityMember::getMemberID() {
+    return memberID;
+}
